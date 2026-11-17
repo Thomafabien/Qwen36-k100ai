@@ -1,0 +1,23 @@
+# 海光 das/dtk 专用包清单（从工作环境 pip freeze 导出并还原为可安装形式）
+# 索引: https://pypi.sourcefind.cn/customer/dtk2604-rc4/simple
+# 注意: 同版本号在索引里可能有 torch290 / torch2110 分支，必须选 torch2100
+aiter==0.1.3+das.opt1.dtk2604.torch2100.2607031825.g1e61ff
+causal-conv1d==1.5.4+das.opt1.dtk2604.torch2100.2605141509.g11ee83
+deep-ep==1.1.0+das.opt1.dtk2604.torch2100.2607022139.g6d93d5
+deepgemm==2.1.0+das.dtk2604.torch2100.2607132120.g1e4537
+fastsafetensors==0.3.2+das.dtk2604.torch2100.2606031120.gee639a
+flash-mla==1.2.0+das.opt1.dtk2604.torch2100.2607011131.ga38e65
+flash_attn==2.8.3+das.opt1.dtk2604.torch2100.2607311554.g5db395
+lightop==0.6.0+das.dtk2604.torch2100.2608111356.g0ad03b
+lmslim==0.3.1+das.opt4.dtk2604.torch2100.2607011353.gf19bc1
+mooncake-transfer-engine==0.3.10.post1+das.dtk2604.2607011420.g1591e8
+pandas==2.3.3
+sglang-kernel==0.4.4+das.opt1.dtk2604.torch2100.2608132334.g97a193
+sglang-router==0.3.2+das.dtk2604.torch2100.2606291518.g86f032
+sglang==0.5.12+das.dtk2604.torch2100.2607031619.gfde568
+tilelang==0.1.9+das.dtk2604.torch2100.2607021953.geb48c4
+torch==2.10.0+das.opt1.dtk2604.2607011430.gd27280
+torchvision==0.25.0+das.opt1.dtk2604.torch2100.2605071719.g7ffc50
+triton==3.6.0+dtk2604.torch2100.2607031022.g5f9350
+vllm-hcu==0.18.1+das.dtk2604.torch2100.2607021911.gabf4af
+vllm==0.18.1+das.dtk2604.torch2100.2606041655.ge5a62f
